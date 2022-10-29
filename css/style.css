@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(242, 224, 255);
+}
+
+img {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+
+#tablero {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 31.5rem;
+    height: 31.5rem;
+
+    margin: auto;
+
+    border-radius: 10px;
+    background-color: white;
+}
+
+.celdaNegra {
+    background-color: rgb(99, 99, 99);
+}
+
+.celdaBlanca {
+    background-color: azure;
+}
+
+.celda {
+    box-sizing: border-box;
+
+    width: 62.5px;
+    height: 62.5px;
+
+    border: 1px solid black;
+}
+
+
+@media screen and (min-width: 480px) {
+    #tablero {
+        border: 10px solid transparent;
+    }
+}
