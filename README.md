@@ -8,8 +8,8 @@ Proyecto de DIW que genera un Tablero de Ajedrez mediante JavaScript y utilliza 
 
 ## GitHub Pages y Repositorio
 
-- **GitHub Pages: [)**
-- **Repositorio: [)**
+- **GitHub Pages: https://atorada.github.io/ChessBoard-DIW/**
+- **Repositorio: https://github.com/ATorada/ChessBoard-DIW.git**
 
 
 ## Ejecución local
