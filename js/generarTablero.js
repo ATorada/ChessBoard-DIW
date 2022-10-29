@@ -50,11 +50,14 @@ function generarTablero() {
             celda.appendChild(img);
          }
 
-         //A cada celda se le añadirán las siguientes clases: "celda", "celda[Color]" y [fila-columna] y posteriormente se añadirán al tablero
-         celda.className = 'celda celdaNegra ' + i + "-" + j;
+         //A cada celda se le añadirá un id con su posición
+         celda.id = i + "-" + j;
+
+         //A cada celda se le añadirán las siguientes clases: "celda" y "celda[Color]"
+         celda.className = 'celda celdaNegra';
 
          if ((i + j) % 2 == 0) {
-            celda.className = 'celda celdaBlanca ' + i + "-" + j;
+            celda.className = 'celda celdaBlanca';
          }
 
          tablero.appendChild(celda);
